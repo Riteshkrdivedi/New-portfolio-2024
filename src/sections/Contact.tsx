@@ -17,12 +17,11 @@ export const ContactSection = () => {
             <div className="">
               <h2 className="font-serif text-2xl md:text-3xl">Hiring?</h2>
               <p className="text-sm md:text-base mt-2">
-                &quotI am Ritesh Kumar Divedi, a passionate Full-Stack Web
+                &quot; I am Ritesh Kumar Divedi, a passionate Full-Stack Web
                 Developer with hands-on experience in building innovative web
                 applications. I enjoy creating solutions that address real-world
                 challenges and am eager to bring my skills and expertise to
-                contribute to your team&apos;s success.&quot Let me know if
-                you&apos;d like any further tweaks!
+                contribute to your team &apos;s success. &quot;
               </p>
             </div>
             <div>
