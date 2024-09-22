@@ -15,7 +15,7 @@ const testimonials = [
     name: "Projekto",
     position: "Next.js, Node.js,ThreeJs, Express, MongoDB, Firebase",
     text: "Developed a project collaboration platform for engineers and developers, enabling real-time collaboration and project tracking. Focused on user authentication and an intuitive interface.",
-    link: "projekto.vercel.app",
+    link: "https://projekto.vercel.app/",
     gitrepo: "https://github.com/Riteshkrdivedi/projekto",
   },
   {
@@ -43,7 +43,7 @@ const testimonials = [
     name: "First PortFolio",
     position: "Html,Css,JavaScript",
     text: "Developed a portfolio website to showcase projects and skills, focusing on responsive design and user experience.",
-    link: "portfolio-tan-chi-67.vercel.app",
+    link: "https://portfolio-tan-chi-67.vercel.app",
     gitrepo: "https://github.com/Riteshkrdivedi/Portfolio",
   },
 ];
