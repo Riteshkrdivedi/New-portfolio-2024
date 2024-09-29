@@ -42,7 +42,7 @@ const testimonials = [
   {
     name: "Text-to-Speech Web Application",
     techstack: "RectJs,deepgram api,nodejs,expressjs,tailwindcss",
-    text: "I built a text-to-speech app using the Deepgram API, leveraging its documentation to understand speech synthesis and API interactions. The project involved integrating real-time text-to-speech conversion in a React app, displaying words dynamically as they are spoken. This journey helped me refine API usage and enhance the user experience.",
+    text: "Created a Text-to-Speech app with Deepgram’s API, featuring real-time audio conversion, dynamic word display, and efficient memory management for an enhanced user experience.",
     link: "https://text-to-speech-client.vercel.app/",
     gitrepo: "https://github.com/Riteshkrdivedi/Text-to-Speech",
   },
@@ -75,13 +75,6 @@ export const TestimonialsSection = () => {
                       className="max-w-xs md:max-w-md p-6 md:p-8 hover:-rotate-3 transition duration-300"
                     >
                       <div className="flex gap-4 items-center">
-                        {/* <div className="size-14 bg-gray-800 rounded-full inline-flex items-center justify-center flex-shrink-0">
-                          <Image
-                            src={testimonial.avatar}
-                            alt={testimonial.name}  
-                            className="max-h-full"
-                          />
-                        </div> */}
                         <div className="">
                           <div className="flex justify-between items-center">
                             <div className="font-semibold">
