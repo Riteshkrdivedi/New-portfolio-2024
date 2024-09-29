@@ -77,7 +77,7 @@ export const TestimonialsSection = () => {
                       <div className="flex gap-4 items-center">
                         <div className="">
                           <div className="flex justify-between items-center">
-                            <div className="font-semibold">
+                            <div className="font-semibold text-2xl">
                               {testimonial.name}
                             </div>
                           </div>
