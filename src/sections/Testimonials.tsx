@@ -13,35 +13,42 @@ import Link from "next/link";
 const testimonials = [
   {
     name: "Projekto",
-    position: "Next.js, Node.js,ThreeJs, Express, MongoDB, Firebase",
+    techstack: "Next.js, Node.js,ThreeJs, Express, MongoDB, Firebase",
     text: "Developed a project collaboration platform for engineers and developers, enabling real-time collaboration and project tracking. Focused on user authentication and an intuitive interface.",
     link: "https://projekto.vercel.app/",
     gitrepo: "https://github.com/Riteshkrdivedi/projekto",
   },
   {
     name: "ChemFuse",
-    position: "HTML, CSS, JavaScript",
+    techstack: "HTML, CSS, JavaScript",
     text: "Created a responsive UI of the periodic table, providing detailed information on each chemical element to enhance learning experiences during the IBM SkillsBuild internship.",
     link: "https://ketanxos.github.io/chemfuse/",
     gitrepo: "https://github.com/Riteshkrdivedi/chemfuse",
   },
   {
     name: "Death Note UI Note-Taking App",
-    position: "HTML, CSS, JavaScript",
+    techstack: "HTML, CSS, JavaScript",
     text: "Built a unique note-taking application inspired by Death Note, combining aesthetic design with functionality for an engaging user experience.",
     link: "https://riteshkrdivedi.github.io/notes-app/",
     gitrepo: "https://github.com/Riteshkrdivedi/notes-app",
   },
   {
     name: "Resume Builder",
-    position: "RectJs,firebase,tailwindcss",
+    techstack: "RectJs,firebase,tailwindcss",
     text: "Developed a web application to create and download professional resumes, allowing users to customize templates and content.",
     link: "https://yourresume-builder-link.com/",
     gitrepo: "https://github.com/Riteshkrdivedi/resume-builder",
   },
   {
+    name: "Text-to-Speech Web Application",
+    techstack: "RectJs,deepgram api,nodejs,expressjs,tailwindcss",
+    text: "I built a text-to-speech app using the Deepgram API, leveraging its documentation to understand speech synthesis and API interactions. The project involved integrating real-time text-to-speech conversion in a React app, displaying words dynamically as they are spoken. This journey helped me refine API usage and enhance the user experience.",
+    link: "https://text-to-speech-client.vercel.app/",
+    gitrepo: "https://github.com/Riteshkrdivedi/Text-to-Speech",
+  },
+  {
     name: "First PortFolio",
-    position: "Html,Css,JavaScript",
+    techstack: "Html,Css,JavaScript",
     text: "Developed a portfolio website to showcase projects and skills, focusing on responsive design and user experience.",
     link: "https://portfolio-tan-chi-67.vercel.app",
     gitrepo: "https://github.com/Riteshkrdivedi/Portfolio",
@@ -82,7 +89,7 @@ export const TestimonialsSection = () => {
                             </div>
                           </div>
                           <div className="text-sm text-white/40">
-                            {testimonial.position}
+                            {testimonial.techstack}
                           </div>
                         </div>
                       </div>
