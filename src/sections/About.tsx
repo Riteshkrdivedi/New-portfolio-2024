@@ -6,6 +6,7 @@ import BookImage from "@/assets/images/book-cover.png";
 import Image from "next/image";
 import mapImage from "@/assets/images/map.png";
 import smileEmoji from "@/assets/images/memoji-smile.png";
+import mainhero from "@/assets/images/mainhero.png";
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
 import { motion } from "framer-motion";
@@ -207,7 +208,7 @@ export const AboutSection = () => {
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20 rounded-full  after:content-[''] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-gray-950/30">
                 <div className="absolute inset-0 rounded-full -z-20 animate-ping [animation-duration:2s] bg-gradient-to-r from-slate-600 to-sky-700"></div>
                 <div className="absolute inset-0 rounded-full -z-10 bg-gradient-to-r from-[#1C1066] to-sky-400"></div>
-                <Image src={smileEmoji} alt="Smile Emoji" className="size-20" />
+                <Image src={mainhero} alt="Smile Emoji" className="size-20" />
               </div>
             </Card>
           </div>
