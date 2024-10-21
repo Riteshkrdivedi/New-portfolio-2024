@@ -137,9 +137,9 @@ export const HeroSection = () => {
       </div>
 
       <div className="container">
-        <div className="flex flex-col items-center justify-center">
-          <Image src={mainhero} alt="Memoji Computer" width={100} />
-          <div className="bg-[#0f0f0f] border border-gray-800 px-4 py-2 rounded-3xl text-white/90 text-sm inline-flex items-center gap-4">
+        <div className="flex flex-col items-center justify-center ">
+          <Image src={mainhero} alt="Memoji Computer" width={120} />
+          <div className="bg-[#0f0f0f] border border-gray-800 px-4 pb-2 rounded-3xl text-white/90 text-sm inline-flex items-center gap-4">
             <div className="bg-green-500 size-2.5 rounded-full relative">
               <div className="bg-green-500 absolute inset-0 rounded-full animate-ping-large"></div>
             </div>
